@@ -15,4 +15,4 @@ This module covers reading, writing, and updating files using Python.
 
 ## Status
 
-🚧 In Progress
+✅ Completed
