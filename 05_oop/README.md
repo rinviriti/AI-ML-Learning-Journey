@@ -1,22 +1,38 @@
-# 🏗 Object-Oriented Programming
+# 🏗 Object-Oriented Programming (OOP)
 
-This module covers fundamental OOP concepts in Python.
+This module introduces Object-Oriented Programming concepts in Python.
 
-## Topics Covered
+## 🎯 Learning Objectives
 
-- Classes
-- Objects
-- Constructors
-- Inheritance
+- Understand classes and objects
+- Create constructors
+- Use attributes and methods
+- Learn inheritance
+- Build simple OOP-based applications
 
-## Files
+## 📁 Files
 
 | File | Description |
 |--------|-------------|
-| class_object.py | Basic class example |
-| constructor.py | Constructor example |
+| class_object.py | Introduction to classes and objects |
+| constructor.py | Constructor (__init__) example |
 | inheritance.py | Inheritance example |
-| student_management.py | OOP mini project |
+| student_management.py | Student management mini project |
+
+## 💡 Skills Learned
+
+- Classes
+- Objects
+- Encapsulation
+- Constructors
+- Inheritance
+- Code Reusability
+
+## 🚀 Mini Project
+
+### Student Management System
+
+A simple OOP-based application for managing student information.
 
 ## Status
 
