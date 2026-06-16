@@ -1,6 +1,6 @@
 # 🔧 Functions in Python
 
-This folder contains examples of Python functions, parameters, return values, and mini projects.
+This folder contains examples of Python functions and mini projects.
 
 ## Topics Covered
 
@@ -10,6 +10,16 @@ This folder contains examples of Python functions, parameters, return values, an
 - Calculator Functions
 - Grade Calculator
 
+## Files
+
+| File | Description |
+|--------|-------------|
+| basic_function.py | Creating and calling functions |
+| function_parameters.py | Passing parameters |
+| return_values.py | Returning values from functions |
+| calculator_function.py | Calculator using functions |
+| grade_calculator.py | Grade calculation project |
+
 ## Status
 
-🚧 In Progress
+✅ Completed
