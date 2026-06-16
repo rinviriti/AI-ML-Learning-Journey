@@ -1,18 +1,23 @@
 # 🏗 Object-Oriented Programming
 
-This module introduces classes, objects, constructors, and inheritance.
+This module covers fundamental OOP concepts in Python.
 
-## Topics
+## Topics Covered
 
 - Classes
 - Objects
 - Constructors
 - Inheritance
 
-## Mini Project
+## Files
 
-- Student Management System
+| File | Description |
+|--------|-------------|
+| class_object.py | Basic class example |
+| constructor.py | Constructor example |
+| inheritance.py | Inheritance example |
+| student_management.py | OOP mini project |
 
 ## Status
 
-🚧 In Progress
+✅ Completed
