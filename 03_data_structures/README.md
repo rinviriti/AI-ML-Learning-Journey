@@ -1,6 +1,6 @@
 # 📦 Data Structures in Python
 
-This folder contains examples of Python data structures and mini projects.
+This folder contains examples of Python data structures and beginner projects.
 
 ## Topics Covered
 
@@ -9,11 +9,17 @@ This folder contains examples of Python data structures and mini projects.
 - Sets
 - Dictionaries
 
-## Mini Projects
+## Files
 
-- Student Database
-- Contact Book
+| File | Description |
+|--------|-------------|
+| lists.py | Working with lists |
+| tuples.py | Tuple examples |
+| sets.py | Set operations |
+| dictionaries.py | Dictionary examples |
+| student_database.py | Student database mini project |
+| contact_book.py | Contact book mini project |
 
 ## Status
 
-🚧 In Progress
+✅ Completed
