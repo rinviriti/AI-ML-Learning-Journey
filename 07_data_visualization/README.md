@@ -48,4 +48,4 @@ Analyzing sample sales data through visual reports.
 
 ## Status
 
-🚧 In Progress
+✅ Completed
