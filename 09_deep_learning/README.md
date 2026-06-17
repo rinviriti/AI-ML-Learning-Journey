@@ -55,4 +55,4 @@ Image classification using deep learning.
 
 ## Status
 
-🚧 In Progress
+✅ Completed
