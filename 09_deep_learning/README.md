@@ -34,8 +34,11 @@ This module focuses on neural networks and deep learning using TensorFlow and Ke
 | overfitting_underfitting.ipynb | Model optimization |
 | model_evaluation.ipynb | Evaluation metrics |
 
-## 💡 Skills Learned
+## Module Summary
 
+📚 Total Notebooks: 6
+
+🧠 Skills Learned:
 - Neural Networks
 - TensorFlow
 - Keras
@@ -43,16 +46,4 @@ This module focuses on neural networks and deep learning using TensorFlow and Ke
 - Hyperparameter Tuning
 - Deep Learning Fundamentals
 
-## 🚀 Mini Projects
-
-### MNIST Digit Classification
-
-Handwritten digit recognition using neural networks.
-
-### Fashion MNIST Classification
-
-Image classification using deep learning.
-
-## Status
-
-✅ Completed
+✅ Status: Completed
