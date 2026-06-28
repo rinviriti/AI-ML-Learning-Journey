@@ -30,35 +30,35 @@ To develop strong practical expertise in Artificial Intelligence by building pro
 
 # 🛠️ Technologies & Tools
 
-### Programming
+## Programming
 
-* Python
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
 
-### Data Science
+## Data Science
 
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
+![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243)
+![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=150458)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0D1117?style=for-the-badge&logo=python&logoColor=4B8BBE)
 
-### Machine Learning
+## Machine Learning
 
-* Scikit-Learn
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
 
-### Deep Learning
+## Deep Learning
 
-* TensorFlow
-* Keras
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
+![Keras](https://img.shields.io/badge/Keras-0D1117?style=for-the-badge&logo=keras&logoColor=D00000)
 
-### Computer Vision
+## Computer Vision
 
-* OpenCV
+![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
 
-### Development Environment
+## Development Environment
 
-* Jupyter Notebook
-* Google Colab
-* Kaggle
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-0D1117?style=for-the-badge&logo=jupyter&logoColor=F37626)
+![Google Colab](https://img.shields.io/badge/Google_Colab-0D1117?style=for-the-badge&logo=googlecolab&logoColor=F9AB00)
+![Kaggle](https://img.shields.io/badge/Kaggle-0D1117?style=for-the-badge&logo=kaggle&logoColor=20BEFF)
 
 ---
 
