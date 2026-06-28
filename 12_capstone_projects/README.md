@@ -1,222 +1,158 @@
-# 🩺 SkinGuard XAI
+# 🚀 AI Capstone Projects
 
-<p align="center">
+This directory contains complete **end-to-end Artificial Intelligence projects** developed after completing the learning modules in this repository.
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge)
-![Gradio](https://img.shields.io/badge/Gradio-HuggingFace-success?style=for-the-badge)
-![Medical AI](https://img.shields.io/badge/Medical-AI-red?style=for-the-badge)
-![Explainable AI](https://img.shields.io/badge/XAI-GradCAM-purple?style=for-the-badge)
+Each capstone demonstrates the practical application of Machine Learning, Deep Learning, Computer Vision, Explainable AI (XAI), and deployment techniques on real-world datasets.
 
-</p>
+Unlike tutorial notebooks, these projects cover the complete AI development lifecycle—from data preprocessing and model training to inference, explainability, deployment, and documentation.
+
+---
+
+# 🎯 Objectives
+
+These projects are designed to demonstrate:
+
+- End-to-end AI system development
+- Real-world dataset handling
+- Deep Learning model training
+- Explainable Artificial Intelligence (XAI)
+- Production-ready inference pipelines
+- Interactive web application deployment
+- Professional documentation and reproducibility
+
+---
+
+# 📂 Available Projects
+
+| Project | Domain | Model | Deployment | Status |
+|----------|--------|--------|------------|--------|
+| 🩺 **SkinGuard XAI** | Medical AI | MobileNetV2 + Grad-CAM | Hugging Face + Gradio | ✅ Completed |
+
+---
+
+# 🩺 Featured Project
+
+## SkinGuard XAI
 
 An end-to-end **Explainable Artificial Intelligence (XAI)** system for automated skin lesion classification using **Transfer Learning**, **MobileNetV2**, and **Grad-CAM**.
 
-The project demonstrates a complete Medical AI workflow from data preprocessing and model training to explainable inference and cloud deployment using **Gradio** and **Hugging Face Spaces**.
+### Features
 
----
+- Skin lesion classification
+- Transfer Learning
+- Explainable AI (Grad-CAM)
+- Top-3 prediction ranking
+- Confidence visualization
+- Probability distribution chart
+- Downloadable AI report
+- Interactive Gradio interface
+- Hugging Face deployment
 
-# 🌐 Live Demo
-
-## 🚀 Try SkinGuard XAI
-
-👉 **https://huggingface.co/spaces/rinviriti/SkinGuard-XAI**
-
----
-
-# 🎥 Application Demo
-
-<p align="center">
-<img src="screenshots/demo.gif" width="950">
-</p>
-
----
-
-# 📸 Screenshots
-
-## 🏠 Home Interface
-
-<p align="center">
-<img src="screenshots/home.png" width="950">
-</p>
-
----
-
-## 🩺 Prediction Result
-
-<p align="center">
-<img src="screenshots/prediction.png" width="950">
-</p>
-
----
-
-## 🔥 Grad-CAM Explainability
-
-<p align="center">
-<img src="screenshots/gradcam.png" width="950">
-</p>
-
----
-
-## 📄 Downloadable AI Report
-
-<p align="center">
-<img src="screenshots/report.png" width="950">
-</p>
-
----
-
-# 🚀 Project Features
-
-✅ Skin lesion classification using MobileNetV2
-
-✅ Transfer Learning
-
-✅ HAM10000 Dataset
-
-✅ Explainable AI using Grad-CAM
-
-✅ Top-3 Prediction Ranking
-
-✅ Confidence Score Visualization
-
-✅ Probability Distribution Chart
-
-✅ Downloadable AI Prediction Report
-
-✅ Gradio Web Application
-
-✅ Hugging Face Deployment
-
----
-
-# 🧠 Model Pipeline
-
-```text
-HAM10000 Dataset
-        │
-        ▼
-Image Preprocessing
-        │
-        ▼
-Transfer Learning (MobileNetV2)
-        │
-        ▼
-Skin Lesion Classification
-        │
-        ▼
-Top-3 Predictions
-        │
-        ▼
-Grad-CAM Explainability
-        │
-        ▼
-Gradio Interface
-        │
-        ▼
-Hugging Face Deployment
-```
-
----
-
-# 📂 Repository Structure
+📁 Project Folder
 
 ```text
 01_SkinGuard_XAI/
-
-├── model/
-│   ├── SkinGuard_XAI_Image_Model.keras
-│   ├── SkinGuard_XAI_Metadata_Fusion_Model.keras
-│   ├── class_names.json
-│   └── metadata_columns.json
-│
-├── outputs/
-│   ├── gradcam_result.png
-│   ├── inference_prediction.csv
-│   └── prediction_report.png
-│
-├── screenshots/
-│   ├── demo.gif
-│   ├── home.png
-│   ├── prediction.png
-│   ├── gradcam.png
-│   └── report.png
-│
-├── SkinGuard_XAI.ipynb
-├── SkinGuard_XAI_Inference.ipynb
-├── app.py
-├── utils.py
-├── requirements.txt
-└── README.md
 ```
 
----
+🌐 Live Demo
 
-# 🗂 Dataset
+https://huggingface.co/spaces/rinviriti/SkinGuard-XAI
 
-**HAM10000 – Human Against Machine with 10000 Training Images**
+📄 Documentation
 
-- 10,015 dermoscopic skin lesion images
-- Seven diagnostic categories
-- Public benchmark dataset for skin lesion classification
-
-Dataset:
-https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+```
+01_SkinGuard_XAI/README.md
+```
 
 ---
 
 # 🛠 Technologies Used
 
-| Category | Technology |
-|-----------|------------|
-| Language | Python |
-| Framework | TensorFlow / Keras |
-| Model | MobileNetV2 |
-| Explainability | Grad-CAM |
-| Image Processing | OpenCV |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib |
-| Deployment | Gradio |
-| Hosting | Hugging Face Spaces |
+<p>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black">
+
+</p>
 
 ---
 
-# 📈 Output
+# 📈 AI Development Workflow
 
-The deployed application provides:
-
-- Predicted skin lesion class
-- Confidence score
-- Top-3 predictions
-- Class probability distribution
-- Grad-CAM heatmap
-- Grad-CAM overlay visualization
-- Downloadable AI-generated prediction report
-
----
-
-# ⚠ Disclaimer
-
-This application is developed **for educational and research purposes only**.
-
-It is **not a certified medical device** and **must not be used for clinical diagnosis or treatment decisions**.
-
-Always consult qualified healthcare professionals for medical advice.
-
----
-
-# 👩‍💻 Developer
-
-**Rinvi Jaman Riti**
-
-Artificial Intelligence • Medical AI • Deep Learning • Computer Vision
-
-GitHub:
-https://github.com/rinviriti
-
-Hugging Face:
-https://huggingface.co/rinviriti
+```text
+Problem Identification
+          │
+          ▼
+Data Collection
+          │
+          ▼
+Data Preprocessing
+          │
+          ▼
+Model Development
+          │
+          ▼
+Model Training
+          │
+          ▼
+Evaluation
+          │
+          ▼
+Explainability (Grad-CAM)
+          │
+          ▼
+Inference Pipeline
+          │
+          ▼
+Deployment (Gradio)
+          │
+          ▼
+Hugging Face
+```
 
 ---
 
-## ⭐ If you found this project helpful, please consider giving it a star!
+# 📌 Future Capstone Projects
+
+The following projects are planned as part of this learning journey:
+
+- 🚗 Vehicle Damage Detection
+- 🧠 Brain Tumor Segmentation
+- 🌾 Plant Disease Classification
+- 🫁 Pneumonia Detection
+- 😊 Facial Emotion Recognition
+- 📄 ResearchMate AI
+- 🤖 Multi-Agent AI Applications
+
+---
+
+# 🌟 Purpose
+
+These projects showcase practical skills in:
+
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Medical AI
+- Explainable AI (XAI)
+- AI Deployment
+- Research-oriented Development
+
+Each project is intended to be portfolio-ready and demonstrates the complete process of designing, building, evaluating, and deploying AI solutions.
+
+---
+
+**More capstone projects will be added as the learning journey progresses.**
