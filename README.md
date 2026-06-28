@@ -28,37 +28,20 @@ To develop strong practical expertise in Artificial Intelligence by building pro
 
 ---
 
-# 🛠️ Technologies & Tools
+# 🛠️ Tech Stack
 
-## Programming
-
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
-
-## Data Science
-
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243)
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=150458)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-0D1117?style=for-the-badge&logo=python&logoColor=4B8BBE)
-
-## Machine Learning
-
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
-
-## Deep Learning
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
-![Keras](https://img.shields.io/badge/Keras-0D1117?style=for-the-badge&logo=keras&logoColor=D00000)
-
-## Computer Vision
-
-![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
-
-## Development Environment
-
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-0D1117?style=for-the-badge&logo=jupyter&logoColor=F37626)
-![Google Colab](https://img.shields.io/badge/Google_Colab-0D1117?style=for-the-badge&logo=googlecolab&logoColor=F9AB00)
-![Kaggle](https://img.shields.io/badge/Kaggle-0D1117?style=for-the-badge&logo=kaggle&logoColor=20BEFF)
+![Python](https://img.shields.io/badge/Python-2D333B?style=for-the-badge&logo=python&logoColor=FFD43B)
+![NumPy](https://img.shields.io/badge/NumPy-2D333B?style=for-the-badge&logo=numpy&logoColor=4DABCF)
+![Pandas](https://img.shields.io/badge/Pandas-2D333B?style=for-the-badge&logo=pandas&logoColor=150458)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-2D333B?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-2D333B?style=for-the-badge&logo=python&logoColor=4B8BBE)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-2D333B?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2D333B?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
+![Keras](https://img.shields.io/badge/Keras-2D333B?style=for-the-badge&logo=keras&logoColor=D00000)
+![OpenCV](https://img.shields.io/badge/OpenCV-2D333B?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
+![Jupyter](https://img.shields.io/badge/Jupyter-2D333B?style=for-the-badge&logo=jupyter&logoColor=F37626)
+![Google Colab](https://img.shields.io/badge/Google_Colab-2D333B?style=for-the-badge&logo=googlecolab&logoColor=F9AB00)
+![Kaggle](https://img.shields.io/badge/Kaggle-2D333B?style=for-the-badge&logo=kaggle&logoColor=20BEFF)
 
 ---
 
