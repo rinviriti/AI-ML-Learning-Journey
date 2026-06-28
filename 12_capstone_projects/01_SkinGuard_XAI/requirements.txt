@@ -1,0 +1,12 @@
+tensorflow>=2.15
+keras>=2.15
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn
+Pillow
+gradio
+jupyter
+ipykernel
