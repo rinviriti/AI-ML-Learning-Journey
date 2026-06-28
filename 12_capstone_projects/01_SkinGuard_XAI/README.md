@@ -6,6 +6,14 @@ This project was developed as part of my AI & Machine Learning learning journey 
 
 ---
 
+## 🌐 Live Demo
+
+Try SkinGuard XAI here:
+
+https://huggingface.co/spaces/rinviriti/SkinGuard-XAI
+
+---
+
 # 🚀 Project Overview
 
 Skin cancer is one of the most common forms of cancer worldwide. Early detection can significantly improve treatment outcomes.
