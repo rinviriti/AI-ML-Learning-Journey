@@ -1,219 +1,222 @@
 # 🩺 SkinGuard XAI
 
-An end-to-end Explainable Artificial Intelligence (XAI) system for automated skin lesion classification using Deep Learning and Transfer Learning.
+<p align="center">
 
-This project was developed as part of my AI & Machine Learning learning journey and demonstrates a complete Medical AI pipeline from data preprocessing to deployment-ready model generation.
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge)
+![Gradio](https://img.shields.io/badge/Gradio-HuggingFace-success?style=for-the-badge)
+![Medical AI](https://img.shields.io/badge/Medical-AI-red?style=for-the-badge)
+![Explainable AI](https://img.shields.io/badge/XAI-GradCAM-purple?style=for-the-badge)
 
----
+</p>
 
-## 🌐 Live Demo
+An end-to-end **Explainable Artificial Intelligence (XAI)** system for automated skin lesion classification using **Transfer Learning**, **MobileNetV2**, and **Grad-CAM**.
 
-Try SkinGuard XAI here:
-
-https://huggingface.co/spaces/rinviriti/SkinGuard-XAI
-
----
-
-# 🚀 Project Overview
-
-Skin cancer is one of the most common forms of cancer worldwide. Early detection can significantly improve treatment outcomes.
-
-SkinGuard XAI uses deep learning models trained on the HAM10000 dataset to classify dermoscopic images of skin lesions. The project also explores Explainable AI techniques to improve transparency and interpretability.
+The project demonstrates a complete Medical AI workflow from data preprocessing and model training to explainable inference and cloud deployment using **Gradio** and **Hugging Face Spaces**.
 
 ---
 
-# 🎯 Objectives
+# 🌐 Live Demo
 
-- Build a skin lesion classification system
-- Compare multiple deep learning models
-- Explore metadata fusion
-- Apply transfer learning using MobileNetV2
-- Evaluate model performance
-- Prepare a deployment-ready AI model
-- Support future Grad-CAM visualization
+## 🚀 Try SkinGuard XAI
+
+👉 **https://huggingface.co/spaces/rinviriti/SkinGuard-XAI**
 
 ---
 
-# 📂 Dataset
+# 🎥 Application Demo
 
-**HAM10000 (Human Against Machine with 10000 Training Images)**
-
-Dataset contains dermoscopic images belonging to seven skin lesion classes.
-
-Classes:
-
-- akiec
-- bcc
-- bkl
-- df
-- mel
-- nv
-- vasc
-
-Dataset Source:
-
-https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+<p align="center">
+<img src="screenshots/demo.gif" width="950">
+</p>
 
 ---
 
-# 🛠 Technologies Used
+# 📸 Screenshots
 
-- Python
-- TensorFlow
-- Keras
-- MobileNetV2
-- OpenCV
-- NumPy
-- Pandas
-- Scikit-Learn
-- Matplotlib
-- Kaggle
-- Jupyter Notebook
+## 🏠 Home Interface
+
+<p align="center">
+<img src="screenshots/home.png" width="950">
+</p>
 
 ---
 
-# 🔬 Project Workflow
+## 🩺 Prediction Result
 
-```
+<p align="center">
+<img src="screenshots/prediction.png" width="950">
+</p>
+
+---
+
+## 🔥 Grad-CAM Explainability
+
+<p align="center">
+<img src="screenshots/gradcam.png" width="950">
+</p>
+
+---
+
+## 📄 Downloadable AI Report
+
+<p align="center">
+<img src="screenshots/report.png" width="950">
+</p>
+
+---
+
+# 🚀 Project Features
+
+✅ Skin lesion classification using MobileNetV2
+
+✅ Transfer Learning
+
+✅ HAM10000 Dataset
+
+✅ Explainable AI using Grad-CAM
+
+✅ Top-3 Prediction Ranking
+
+✅ Confidence Score Visualization
+
+✅ Probability Distribution Chart
+
+✅ Downloadable AI Prediction Report
+
+✅ Gradio Web Application
+
+✅ Hugging Face Deployment
+
+---
+
+# 🧠 Model Pipeline
+
+```text
 HAM10000 Dataset
-        │
-        ▼
-Data Cleaning
         │
         ▼
 Image Preprocessing
         │
         ▼
-Metadata Processing
+Transfer Learning (MobileNetV2)
         │
         ▼
-Train / Validation / Test Split
+Skin Lesion Classification
         │
         ▼
-Data Augmentation
+Top-3 Predictions
         │
         ▼
-Model Training
+Grad-CAM Explainability
         │
-        ├── Custom CNN
-        ├── MobileNetV2
-        └── MobileNetV2 + Metadata Fusion
-                │
-                ▼
-Model Evaluation
-                │
-                ▼
-Best Model Selection
-                │
-                ▼
-Deployment-ready Model
+        ▼
+Gradio Interface
+        │
+        ▼
+Hugging Face Deployment
 ```
 
 ---
 
-# 🧠 Models Implemented
-
-- Custom CNN
-- MobileNetV2 Transfer Learning
-- MobileNetV2 + Metadata Fusion
-
----
-
-# 📊 Evaluation Metrics
-
-The models are evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-- Classification Report
-
----
-
-# 📁 Project Structure
+# 📂 Repository Structure
 
 ```text
 01_SkinGuard_XAI/
-│
-├── SkinGuard_XAI.ipynb
-├── inference.ipynb
-├── app.py
-├── README.md
-├── requirements.txt
-│
+
 ├── model/
 │   ├── SkinGuard_XAI_Image_Model.keras
 │   ├── SkinGuard_XAI_Metadata_Fusion_Model.keras
 │   ├── class_names.json
 │   └── metadata_columns.json
 │
-├── images/
+├── outputs/
+│   ├── gradcam_result.png
+│   ├── inference_prediction.csv
+│   └── prediction_report.png
 │
-└── outputs/
+├── screenshots/
+│   ├── demo.gif
+│   ├── home.png
+│   ├── prediction.png
+│   ├── gradcam.png
+│   └── report.png
+│
+├── SkinGuard_XAI.ipynb
+├── SkinGuard_XAI_Inference.ipynb
+├── app.py
+├── utils.py
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-# 🌟 Features
+# 🗂 Dataset
 
-- Skin lesion classification
-- Image preprocessing
-- Metadata integration
-- Transfer learning
-- Model comparison
-- Evaluation metrics
-- Deployment-ready model
-- Explainable AI ready (Grad-CAM)
+**HAM10000 – Human Against Machine with 10000 Training Images**
 
----
+- 10,015 dermoscopic skin lesion images
+- Seven diagnostic categories
+- Public benchmark dataset for skin lesion classification
 
-# 🚀 Future Improvements
-
-- Grad-CAM visualization
-- TensorFlow Lite conversion
-- Flutter mobile application
-- EfficientNet implementation
-- Vision Transformer comparison
-- Web deployment using Gradio
-- Hugging Face Spaces deployment
+Dataset:
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 ---
 
-# 📚 Learning Outcomes
+# 🛠 Technologies Used
 
-This project helped me understand:
-
-- Medical image preprocessing
-- Deep learning workflows
-- Transfer learning
-- CNN architectures
-- Metadata fusion
-- Model evaluation
-- Medical AI pipelines
-- End-to-end AI project development
+| Category | Technology |
+|-----------|------------|
+| Language | Python |
+| Framework | TensorFlow / Keras |
+| Model | MobileNetV2 |
+| Explainability | Grad-CAM |
+| Image Processing | OpenCV |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib |
+| Deployment | Gradio |
+| Hosting | Hugging Face Spaces |
 
 ---
 
-# ⚠️ Medical Disclaimer
+# 📈 Output
 
-This project is intended for educational and research purposes only.
+The deployed application provides:
 
-It is **not** a certified medical device and should **not** be used for clinical diagnosis or treatment decisions.
+- Predicted skin lesion class
+- Confidence score
+- Top-3 predictions
+- Class probability distribution
+- Grad-CAM heatmap
+- Grad-CAM overlay visualization
+- Downloadable AI-generated prediction report
+
+---
+
+# ⚠ Disclaimer
+
+This application is developed **for educational and research purposes only**.
+
+It is **not a certified medical device** and **must not be used for clinical diagnosis or treatment decisions**.
 
 Always consult qualified healthcare professionals for medical advice.
 
 ---
 
-# 📄 License
-
-This project is released under the MIT License.
-
----
-
-# 👩‍💻 Author
+# 👩‍💻 Developer
 
 **Rinvi Jaman Riti**
 
-AI • Machine Learning • Deep Learning • Computer Vision • Medical AI
+Artificial Intelligence • Medical AI • Deep Learning • Computer Vision
+
+GitHub:
+https://github.com/rinviriti
+
+Hugging Face:
+https://huggingface.co/rinviriti
+
+---
+
+## ⭐ If you found this project helpful, please consider giving it a star!
