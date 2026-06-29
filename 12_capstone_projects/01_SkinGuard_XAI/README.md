@@ -26,9 +26,9 @@ The project demonstrates a complete Medical AI workflow from data preprocessing 
 
 # 🎥 Application Demo
 
-<p align="center">
+<div align="center">
 <img src="12_capstone_projects/01_SkinGuard_XAI/screenshots/demo.gif" alt="App Demo">
-</p>
+</div>
 
 ---
 
